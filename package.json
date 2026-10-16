@@ -1,0 +1,43 @@
+{
+  "name": "bpn-diary",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "check:matte": "node scripts/check-matte.mjs",
+    "check:e2e": "node scripts/e2e-table-flow.mjs && node scripts/e2e-moment-flow.mjs && node scripts/e2e-map-pins.mjs"
+  },
+  "dependencies": {
+    "@base-ui/react": "^1.9.0",
+    "@fontsource-variable/geist": "^5.3.0",
+    "class-variance-authority": "^0.7.1",
+    "cn": "^0.4.0",
+    "date-fns": "^4.4.0",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.58.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-leaflet": "^5.0.0",
+    "shadcn": "^1.0.0",
+    "tw-animate-css": "^1.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "autoprefixer": "^10.6.1",
+    "eslint": "^10.10.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.6",
+    "globals": "^17.12.0",
+    "postcss": "^8.5.30",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0"
+  }
+}
